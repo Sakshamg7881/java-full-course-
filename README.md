@@ -1,2 +1,2 @@
 # java-full-course-
-This is a full java course for beginner to advance and in this this course i cover all topic of java with very basics to advance 
+This repository contains a complete Java learning roadmap from beginner to advanced level. Each topic includes theory, examples, and practice programs to help learners build strong Java programming skills.
