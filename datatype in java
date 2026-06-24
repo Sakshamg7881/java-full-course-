@@ -1,0 +1,39 @@
+public class datatype {
+    public static void main(String [] args) {
+        int a = 2; // int store only integer value in the range of [-2B TO +2B] and it store 4 bytes
+
+        System.out.println(a);
+        char ch = 'b';        // char store all characters a to z and A to Z and some special case[ @, %,' ,' ] and it store 2 bytes
+        System.out.println(ch);
+        boolean var = true;
+        // boolean define only condition like true and false and it store only 1 byte
+
+        double price = 10.567d;  // double store only decimal value in very big size and it store 8 bytes
+        System.out.println(price);
+        float number = 10.5f;    // float define only decimal value and it store 4 bytes
+        System.out.println(number);
+        long num = 1234567789101112l;  // long store integer value but very big size and it store 8 bytes
+        System.out.println(num);
+        short n = 24097;     // it store only very short value in integer form and it store 2 bytes
+        System.out.println(n);
+
+
+        int b = 2147483647;
+        b = b + 1;              // it is called integer overflow
+        System.out.println(b);
+
+        int c = 2147483647;
+        c = c - 1;             // it is called integer underflow
+        System.out.println(c);
+
+        // question 1. sum of two number
+
+        int x = 12;
+        int y = 13;
+        int sum = x + y;
+        System.out.println(sum);
+
+    }
+  
+}
+
