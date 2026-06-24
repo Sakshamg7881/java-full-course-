@@ -1,0 +1,34 @@
+import java.util.*;   // java.util package ki sabhi classes ko import karta hai
+
+public class datatype {
+    public static void main(String[] args) { // Program execution yahin se start hota hai
+        Scanner sc = new Scanner(System.in); // User se input lene ke liye Scanner object banaya
+
+        // String input = sc.next(); // User ka input String me store karta hai
+        // Sirf ek word leta hai (space tak)
+
+        // System.out.println(input); // input ko print karta hai
+
+        String name = sc.nextLine();   // Puri line/sentence ko store karta hai
+
+        System.out.println(name);   // Puri line ko print karta hai
+
+        int number = sc.nextInt();   // esme koi bhi integer value store hogi
+        System.out.println(number);    // yah kisse bhi integer value to print karega
+
+        float price = sc.nextFloat();   // it store a any decimal value
+        System.out.println(price);    // yah print karta hai koi bhi integer value ko print karega
+
+        boolean prices = sc.nextBoolean();   // it is use to check the condition true or false
+        System.out.println(prices); it is use to print of decimal value of big size 
+
+    double marketprice = sc.nextDouble();  // it store any decimal value which is bog in size
+        // to print a big size floating value
+        System.out.println(marketprice);
+
+    short var = sc.nextShort ();  // it is use to store a small size of any integer number
+        System.out.println(var); // to print a small size of integer number
+
+
+    }
+}
