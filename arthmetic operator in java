@@ -26,10 +26,10 @@ public class datatype{
         System.out.println(div); // to print a div of P and Q
 
 
-        int A = Sc.nextInt();
-        int B = Sc.nextInt();
-        int sub = A - B;
-        System.out.println(sub);
+        int A = Sc.nextInt(); // it is input A 
+        int B = Sc.nextInt(); // it is input B
+        int sub = A - B; // condition 
+        System.out.println(sub);  // to print a substraction of A and B 
     }
 
 }
