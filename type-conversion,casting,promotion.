@@ -1,0 +1,42 @@
+import java.util.*;
+public class datatype{
+    public static void main(String[] args){
+       char ch = 'a';           // ch a ki value 97
+        char ch2 = 'b';     // ch b ki value 98
+          int number = ch;
+       int number2 = ch2;
+          char ch3 = 'A';       // ch A ki value 65
+         int number3 = ch3;
+
+       System.out.println(number3);
+       System.out.println(number);
+     System.out.println(number2);
+
+        char a  = 'a';
+        char b = 'b';
+        System.out.println((int)(a));      // type promotion expression rule 1 ex 1
+       System.out.println((int)(b));
+       System.out.println(b-a);
+
+    short a = 2;
+        byte b = 25;
+   char ch = 'c';          // type promotion and expression rule 1 ex 2
+    Byte bt = (byte) (a+b+ch);
+    System.out.println(bt);
+
+         int a = 10;
+        float b = 20.25f;
+        long c = 25;
+        double d = 30;          // type promotion rule 2 example 1 
+        double ans = (a+ b+ c+ d);
+        System.out.println(ans);
+
+        Byte b = 5;
+        b = b*2;       // it is wrong 
+                                            // type promotion rule 2 example 2 
+        byte B = 5;       // it is right 
+        B= (byte)(B*2);
+
+
+    }
+}
