@@ -1,0 +1,88 @@
+    import java.util.Scanner;
+
+public class operators {
+    public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+        // it is a uniary operators 
+
+
+        // It is a pre decrement operator
+        int x = 10;
+        int y = --x;
+        System.out.println(x);
+        System.out.println(y);
+         
+        //It is a postdecrement operartor
+        int p = 40;
+        int q = p--;
+        System.out.println(p);
+        System.out.println(q);
+
+        //It is preincrement operator 
+
+        int w = 10;
+        int u = ++w;
+        System.out.println(w);
+        System.out.println(u);
+
+        //It is a postincrement operator 
+
+        int c = 20;
+        int d = c++;
+        System.out.println(c);
+        System.out.println(d);
+
+
+ 
+        // It is a relational operators 
+
+        int a = 10;
+        int b = 20;
+        System.out.println(a==b);
+        System.out.println(a!=b);
+        System.out.println(a>b);
+        System.out.println(a<b);
+        System.out.println(a>=b);
+        System.out.println(a<=b);
+
+
+    // It is a logicals operators 
+
+        System.out.println((3 > 2) && (4>5));
+        System.out.println((2<3) && (4>2));
+        System.out.println((13>14) || ( 12>10));
+        System.out.println((10<12) || (12>10));
+        System.out.println(!(3>2));
+        System.out.println(!(1<0));
+
+    
+
+
+    // It is a Assignment operators
+    
+      Scanner Sc = new Scanner(System.in);
+      int f= 12;
+       f += 12;      //output = f+12 = 24
+       // f = f+12;
+       System.out.println(f);
+
+      int e = 13;
+      e -= 13;       // output = e-13 = 0
+      // e = e-13;
+      System.out.println(e);
+
+      int h = 30;
+      h *= 30;      // output = h*30 = 900
+        System.out.println(h);
+      // h = h*30;
+
+      int i = 50;
+      i /= 50;     // output = i/50 = 1
+
+      // i = i/ 50;
+
+      System.out.println(i);
+
+    }
+    
+}
