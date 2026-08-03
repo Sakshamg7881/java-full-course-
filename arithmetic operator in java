@@ -1,35 +1,116 @@
-import java.util.*;    // sum of two number a and b
-public class datatype{
-    public static void main(String[] args){
-        Scanner Sc = new Scanner(System.in);
-        int a  = Sc.nextInt();  // it is a input a
-        int b = Sc.nextInt();  // it is inout b
-        int sum = a+b;  // comdition
+      import java.util.Scanner;
 
-        System.out.println(sum); // it is used to print the sum of a and b
-
-        int x = Sc.nextInt();   // it is the input x
-        int y = Sc.nextInt();   // it is the input y
-        int modulo = x%y;  // condition
-
-        // multiply of x and y
-        System.out.println(modulo);  //  to print a modulo of x and y
-
-        int m = Sc.nextInt();  // it is input m
-        int n = Sc.nextInt();  // it is input n
-        int p  = m*n;
-        System.out.println(p); // tp print a product of m and n
-
-        int P = Sc.nextInt (); // it is a input P
-        int Q = Sc.nextInt (); // it is a input Q
-        int div = P/Q;  // condition
-        System.out.println(div); // to print a div of P and Q
+ public class conditionalstatement {
 
 
-        int A = Sc.nextInt(); // it is input A 
-        int B = Sc.nextInt(); // it is input B
-        int sub = A - B; // condition 
-        System.out.println(sub);  // to print a substraction of A and B 
+     public static void main(String [] args){
+        // Scanner sc = new Scanner(System.in);
+//             int age = sc.nextInt();
+//             if(age>= 18){
+//                 System.out.println("eligble for vote");
+//                                 System.out.println(" elible for drive and  elible for going college"); 
+//             }
+//                 else if(age>13 && age < 16){
+//                     System.out.println("teenager");
+//                 }
+//                 else if(age>4 && age<8){
+//                     System.out.println("genz, kids");
+//                 }
+//             else {
+//                 System.out.println("not elegible for vote");
+//                 System.out.println("not elible for drive and not elible for going college");
+//             }
+
+
+//         }FIND THE LARGEST OF TWO NUMBER 
+//     }
+            // 
+       // int number = sc.nextInt();
+//        int b = sc.nextInt();
+//        int c =sc.nextInt();
+
+//        if(a>b)  {
+//         System.out.println("a is the largest b");
+//        } 
+//        else if(b>c){
+//         System.out.println("b is the largest c");
+//        }
+//        else{
+//         System.out.println("c is the largest");
+//    }  
+//      TO IMPLEMENT ESLE IF STATEMENT
+
+
+//       int age = sc.nextInt();
+
+// if(age>=18) {
+//     System.out.println("teenger");
+// }
+//     else if (age>13 && age<17) {
+        
+//         System.out.println("adult");
+//     }
+// else{
+//     System.out.println("not eligble for vote,driving etc");
+// } 
+
+            // CONDITION OF TO CHECK A GIVEN NUMBER IS EVEN OR ODD 
+            // IF (NUMBER % 2 ==0)
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter the number:");
+        
+        int n = sc.nextInt();
+        if(n % 2==0){
+            System.out.println("EVEN");
+        }
+        else{
+            System.out.println("ODD");
+        }
     }
-
 }
+    
+
+
+    //  TO CREATE A INCOMETAX CALCULATOR
+
+        //    System.out.println("enter your early income:");
+        //    Scanner sc = new Scanner(System.in);
+        //    int income = sc.nextInt();
+        //     int tax;
+
+        //     if(income<500000) {
+        //      tax = 0;
+
+        //     }
+        //     else if(income>=500000 && income<1000000){
+        //     tax = (int) (income*0.2);
+
+        //      }
+        //      else{
+        //          tax = (int) (income*0.3);
+        //      }
+        //      System.out.println("your tax is:" + tax);
+
+                   // TO CHECK ANY STUDENT IS FAIL OR PASS 
+
+//            Scanner sc = new Scanner(System.in);
+//          System.out.println("enter your marks: ");
+//                     int marks1 = sc.nextInt();
+//                     int marks2 = sc.nextInt();
+//                     int marks3 = sc.nextInt();
+//                     int marks4 = sc.nextInt();
+//                     int marks5 = sc.nextInt();
+
+//             int total = marks1 + marks2 + marks3 + marks4 + marks5;
+//             double percentage = total / 5.0;
+
+
+//            // ternary operator 
+
+//            String result = (marks1 >= 33)?"pass":"fail";
+//  System.out.println("total marks = " + total);
+//  System.out.println("percentage = "+percentage);
+//   System.out.println("result = "+result);
+// }
+//  }
+    
