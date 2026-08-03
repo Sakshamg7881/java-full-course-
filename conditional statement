@@ -1,0 +1,95 @@
+      import java.util.Scanner;
+
+ public class conditionalstatement {
+
+
+     public static void main(String [] args){
+        // Scanner sc = new Scanner(System.in);
+//             int age = sc.nextInt();
+//             if(age>= 18){
+//                 System.out.println("eligble for vote");
+//                                 System.out.println(" elible for drive and  elible for going college"); 
+//             }
+//                 else if(age>13 && age < 16){
+//                     System.out.println("teenager");
+//                 }
+//                 else if(age>4 && age<8){
+//                     System.out.println("genz, kids");
+//                 }
+//             else {
+//                 System.out.println("not elegible for vote");
+//                 System.out.println("not elible for drive and not elible for going college");
+//             }
+
+
+//         }FIND THE LARGEST OF TWO NUMBER 
+//     }
+            // 
+       // int number = sc.nextInt();
+//        int b = sc.nextInt();
+//        int c =sc.nextInt();
+
+//        if(a>b)  {
+//         System.out.println("a is the largest b");
+//        } 
+//        else if(b>c){
+//         System.out.println("b is the largest c");
+//        }
+//        else{
+//         System.out.println("c is the largest");
+//    }  
+//      TO IMPLEMENT ESLE IF STATEMENT
+
+
+//       int age = sc.nextInt();
+
+// if(age>=18) {
+//     System.out.println("teenger");
+// }
+//     else if (age>13 && age<17) {
+        
+//         System.out.println("adult");
+//     }
+// else{
+//     System.out.println("given number is ODD");
+// } 
+
+            // CONDITION OF TO CHECK A GIVEN NUMBER IS EVEN OR ODD 
+            // IF (NUMBER % 2 ==0)
+            
+
+
+
+    //  TO CREATE A INCOMETAX CALCULATOR
+
+        //    System.out.println("enter your early income:");
+        //    int income = sc.nextInt();
+        //    int tax;
+
+        //    if(income<500000) {
+        //     tax = 0;
+
+        //    }
+        //    else if(income>=500000 && income<1000000){
+        //     tax = (int) (income*0.2);
+
+        //     }
+        //     else{
+        //         tax = (int) (income*0.3);
+        //     }
+        //     System.out.println("your tax is:" + tax);
+
+                    // TO CHECK ANY STUDENT IS FAIL OR PASS 
+
+           Scanner sc = new Scanner(System.in);
+           System.out.println("enter your marks: ");
+        //    int marks = sc.nextInt();
+        //    // ternary operator 
+
+        //    String type = ((marks>= 33) )?"pass" : "fail";
+        //     System.out.println(type);
+            
+ 
+}
+ }
+
